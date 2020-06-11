@@ -1,0 +1,83 @@
+/* lists of items */
+ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+ul li:before {
+  content: "*";
+  margin-left: -2ch;
+  position: absolute;
+  color: #4fac4f;
+}
+.task-list-item.md-task-list-item {
+    padding-left: 0px;
+    margin-left: 2em;
+}
+.task-list-item input:before {
+  content: '- [ ]';
+  margin-left: -6ch;
+  margin-bottom: 1ch;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-top: 0ch;
+  top: -3px;
+  width: 9ch;
+}
+.task-list-item input:checked:before {
+  content: '- [x]';
+}
+.task-list-item input:checked ~ * {
+  text-decoration: none;
+}
+
+/* explicit markdown punctuation */
+.typora-export em:before {
+  content: "_";
+  font-size: 0.8em;
+  color: #c7c5c5;
+}
+.typora-export em:after {
+  content: "_";
+  font-size: 0.8em;
+  color: #c7c5c5;
+}
+
+.typora-export strong:before {
+  content: "**";
+  color: #c7c5c5;
+  font-size: 0.8em;
+}
+.typora-export strong:after {
+  content: "**";
+  color: #c7c5c5;
+  font-size: 0.8em;
+}
+
+.typora-export p > a:not(:empty):before {
+  content: "[";
+  color: #c7c5c5;
+}
+.typora-export p > a:not(:empty):after {
+  content: "]";
+  color: #c7c5c5;
+}
+
+.typora-export strong > a:not(:empty):before {
+  content: "[";
+  color: #c7c5c5;
+}
+.typora-export strong > a:not(:empty):after {
+  content: "]";
+  color: #c7c5c5;
+}
+
+.typora-export code:before {
+  content: "`";
+  color: #c7c5c5;
+  font-size: 0.8em;
+}
+.typora-export code:after {
+  content: "`";
+  color: #c7c5c5;
+  font-size: 0.8em;
+}

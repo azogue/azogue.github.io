@@ -1,0 +1,65 @@
+/* dark/light theme switch for static site */
+aside { position: absolute; right: 0; top: 0;}
+@media print { aside { display: none; }}
+
+/* common page settings, margings and paddings */
+body.typora-export {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;}
+
+#write p,
+#write > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#write p > .md-line:first-child {
+  margin-top: 1rem;
+}
+#write p > .md-line:last-child {
+  margin-bottom: 1rem;
+}
+
+@media print {
+    /* page & font size  */
+    @page { size: A4; }
+
+    html {
+        width: 210mm;
+        height: 297mm !important;
+    }
+    html, body {
+        font-size: 13px !important;
+    }
+
+    /* Ensure padding-top on page break */
+    h2 ~ p > code {
+        padding-top: 30px;
+    }
+
+    /* Hide footnote indicators on print */
+    sup.md-footnote {
+        display: none;
+    }
+
+    /* Footnote size, padding, margin */
+    .footnotes-area {
+        margin-top: 2.5rem;
+        padding-bottom: 2px;
+    }
+    footnotes-area > hr {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    footnotes-area > hr:after {
+      font-size: 14px;
+      line-height: 14px;
+    }
+}
+
+/* Hide 2nd section (usage instructions) on typora export, so it's only visible on github */
+body.typora-export h1:nth-of-type(2) { display: none; }
+body.typora-export > div > hr { display: none; }
+body.typora-export > div > hr ~ p { display: none; }
