@@ -1,7 +1,6 @@
 ---
 title: Eugenio Panadero's resume
-author: @azogue
-date: 2020-06-12
+date: 2020-06-11
 ---
 
 # Eugenio Panadero [![availability][badge_availability]](#skills) [![senior_level][badge_level]](#professional-experience) [![preferred_language][badge_language]](#languages)
@@ -124,7 +123,7 @@ To do the same as I, install typora + themes, copy the CSS files from this repo 
 Finally, I use a [simple script](notebooks/html-post-process-css.ipynb) to remove the inline CSS and link to the original CSS files that Typora uses, using media queries to implement the user's `prefers-color-scheme`, and adding a [web component](https://www.webcomponents.org/element/dark-mode-toggle) to show a simple toggle to switch between themes. 
 
 
-[^1]: For a less _nerdy CSS markdown-ish styling_ go to https://azogue.github.io, or download PDFs for the [light-theme version][pdf_light_theme] or the [dark one][pdf_dark_theme].
+[^1]: For a less _nerdy CSS markdown-ish styling_ go to the [source][repo_resume]/[web][ghpages_resume], or download PDFs for the [light-theme version][pdf_light_theme] or the [dark one][pdf_dark_theme].
 
 [badge_availability]: ./resources/badge_availability.svg "Availability: Full-time"
 [badge_level]: ./resources/badge_level.svg "Experience level: Senior"
@@ -141,5 +140,7 @@ Finally, I use a [simple script](notebooks/html-post-process-css.ipynb) to remov
 [ha_contrib]: https://github.com/home-assistant/core/commits?author=azogue "HomeAssistant contributions"
 [eq_parser]: https://gitlab.com/azogue/gs-eq-parser "Google Sheet Equation Parser"
 [psychrochart]: https://github.com/azogue/psychrochart "PsychroChart"
+[repo_resume]: https://github.com/azogue/azogue.github.io "Repository to make this resume"
+[ghpages_resume]: https://azogue.github.io "Github Pages with this resume"
 [pdf_light_theme]: https://azogue.github.io/resumes/resume_eugenio-panadero__printable.pdf "Resume (PDF, light md theme)"
 [pdf_dark_theme]: https://azogue.github.io/resumes/resume_eugenio-panadero.pdf "Resume (PDF, dark md theme)"
