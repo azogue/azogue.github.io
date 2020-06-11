@@ -126,9 +126,9 @@ Finally, I use a [simple script](notebooks/html-post-process-css.ipynb) to remov
 
 [^1]: For a less _nerdy CSS markdown-ish styling_ go to https://azogue.github.io, or download PDFs for the [light-theme version][pdf_light_theme] or the [dark one][pdf_dark_theme].
 
-[badge_availability]: https://img.shields.io/badge/availability-Full--time-green?style=flat-square
-[badge_level]: https://img.shields.io/badge/level-Senior-orange?style=flat-square "Experience level: Senior"
-[badge_language]: https://img.shields.io/badge/language-Python-blue?style=flat-square "Preferred language: Python"
+[badge_availability]: ./resources/badge_availability.svg "Availability: Full-time"
+[badge_level]: ./resources/badge_level.svg "Experience level: Senior"
+[badge_language]: ./resources/badge_language.svg "Preferred language: Python"
 [company_remak]: https://www.remak.eu/en/company-profile "REMAK"
 [company_cype]: http://www.cype.com "CYPE"
 [company_pik]: https://www.pikolinos.com "Pikolinos"
