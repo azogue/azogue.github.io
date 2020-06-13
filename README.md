@@ -1,48 +1,43 @@
----
-title: Eugenio Panadero's resume
-date: 2020-06-11
----
-
 # Eugenio Panadero [![availability][badge_availability]](#skills) [![senior_level][badge_level]](#professional-experience) [![preferred_language][badge_language]](#languages)
 
 - [x] Spain, Alicante (CET🕑), working **remote**
 - [x] [eugenio.panadero@gmail.com](mailto:eugenio.panadero@gmail.com)
 
-Developer with 12+ years of experience (last 5+ focusing on `Python3`), interested in web applications, data analysis & ML, IoT, home automation, and the energy & electrical industrial sectors.
+Developer with 12+ years of experience (last 5+ focusing on `Python3`), interested in web applications, data analysis & ML, IoT, home automation, and energy & electrical industries.
 
 ## Skills
 
-* **High adaptability** to new problems, new frameworks, and new teams, after a long career developing software for web apps, desktop apps, microservices, ESP microcontrollers, industrial automation, and home automation.
-* **Domain expertise** on Energy efficiency, Systems Modeling, HVAC systems, Building Services engineering &+.
-* Expertise on code debugging and code refactoring, TDD, MVC pattern, OOP, HTTP methods and RESTful arch.
-* **Problem-solver**. Proactive, self-directed and solution-oriented, with ability to evaluate complex problems, manage, delegate and prioritize appropriately, to successfully carry out projects of any size.
-* **Quick learner**. Love to work on multidisciplinary teams and dive into new technologies or stacks.
-* **Good communication skills**. Assertiveness and security in the exposition of ideas, and the ability to listen and learn in the ongoing dialogue with my colleagues.
+* A **high level of adaptability** to new problems, new frameworks, and new teams, after a long career developing software for web and desktop apps, microservices, ESP microcontrollers, industrial automation, and home automation.
+* **Domain expertise** on Energy Efficiency, Systems Modeling, HVAC systems, Building Services Engineering.
+* Expertise on code debugging and code refactoring, **TDD**, MVC pattern, OOP, HTTP methods and RESTful arch.
+* **Problem-solver**. Proactive, self-directed and solution-oriented with the ability to evaluate complex problems, manage and prioritize tasks to complete projects of any size.
+* **Quick learner**. Love to work with multidisciplinary teams and dive into new technologies or stacks.
+* **Strong communication skills**. Assertiveness and security in the exposition of ideas, and the ability to listen and learn in the ongoing dialogue with my colleagues.
 
 ## Tech stack
 
-* Deep experience with `Python` _aiolibs_ (`aiohttp`, `aiopg`, `aioredis`, `aiojobs`) and `flask` for **WebDev**, and _PyData_ stacks (`pandas`, `numpy`, `matplotlib`, `scipy`, `sklearn`, `seaborn`, `bokeh`) for **DataScience**, and fluent with GIS tools, OpenCV, PyTorch, `networkx`, `selenium`, `numba` &+.
+* Extensive experience with `Python` _aiolibs_ (`aiohttp`, `aiopg`, `aioredis`, `aiojobs`) and `flask` for **WebDev**, and _PyData_ stacks (`pandas`, `numpy`, `matplotlib`, `scipy`, `sklearn`, `seaborn`, `bokeh`) for **DataScience**, and fluent with GIS tools, OpenCV, PyTorch, `networkx`, `selenium`, `numba`, and many more.
 * Proficient with all kinds of **SQL/NoSQL databases** (MySQL, PostgreSQL, InfluxDB, MongoDB), message **brokers** (MQTT, Redis, Celery), and **containerization**/virtualization systems (Docker, VMs).
 * Skilled unit & integration test writer with `pytest`, hands-on experience with CI/CD workflows and environments (Travis CI, Gitlab CI, `tox`, OpenAPI/Swagger).
-* Markdown lover, competent with HTML templating and CSS[^1], clumpsy but functional on (Virtual)DOM dev.
+* Markdown enthusiast, competent with HTML templating and CSS[^1], clumpsy but functional on (Virtual)DOM dev.
 * Comfortable with all kinds of Linux environments, but also with Windows & macOS desktops.
 
 ## Professional experience
 
 `2019-2020`
 
-Full remote position as **Senior Python Backend Developer** on a small agile team, to support new products and company processes for [Remak a.s.][company_remak].
+**Senior Python Backend Developer** on a small agile team, to support new products and company processes for [Remak a.s.][company_remak], in a full remote position.
 
-* Building a huge platform on micro service architecture, by creating **async microservices** and other tools such as _Excel parsers_, _DLL wrappers_, or _SolidWorks API controllers_,
+* Building a large (and scalable) micro service architecture platform, by creating **async microservices** and other tools such as _Excel parsers_, _DLL wrappers_, or _SolidWorks API controllers_,
 * working with Gitlab CI, Sentry, OpenAPI spec, and `poetry` & `pre-commit` hooks,
 * and applying domain expertise on HVAC systems.
 
 `2017-2018`
 
-**Freelance developer**, solving automation problems and helping to create IoT products for companies, like:
+**Freelance developer**, solving automation problems and helping to create IoT products for companies, including:
 
-* a backend development and cloud deployment for an IoT commercial product, with real-time data processing, push alerts, and a `flask` JSON API for companion apps, using InfluxDB and Mongo databases, JWT auth, `Celery`, `Redis`, `Gunicorn` and `Nginx`;
-* the design and development of an IoT product based on ESP32 SoC, related to sleep measurement, under criteria of energy efficiency and secure communications.
+* a backend development and cloud deployment of an IoT commercial product; this entitled real-time data processing, push alerts, and a `flask` JSON API for companion apps, using InfluxDB + MongoDB, JWT auth, `Celery`, `Redis`, `Gunicorn` and `Nginx`;
+* the design and development of an IoT product based on ESP32 SoC, this involved high levels of security and energy efficiency given that he device was used for measuring and analysing sleep metrics.
 
 `2015-2016`
 
@@ -75,7 +70,7 @@ Paid scholarship at [Pikolinos][company_pik], as **Assistant to the Chief Operat
 
 ## Education
 
-My primary STEM _orthodox_ education is a **BSc+MSc in Industrial Engineering** by [Universidad Miguel Hernández de Elche][university] 🎓 (ScD equivalent, B+5U), but I consider myself a **perpetual learner**, always rounded by tech before and after that, since I was a child playing with my father's [MSX][msx] to nowadays when I populate my house with custom-made & custom-programmed ESP32 SoC :)
+My primary STEM _orthodox_ education is a **BSc(hons) Industrial Engineering** by [Universidad Miguel Hernández de Elche][university] 🎓 (ScD equivalent, B+5U), but I consider myself a **perpetual learner**, always rounded by tech before and after that, since I was a child playing with my father's [MSX][msx] to nowadays when I populate my house with custom-made & custom-programmed ESP32 SoC :)
 
 
 
@@ -87,8 +82,8 @@ I've also taught some courses and classes, ranging from usage of Building Energy
 
 ## Languages
 
-- **Spanish**, at native level
-- **English**, with full professional proficiency
+- **Spanish**, mother tongue
+- **English**, with professional working proficiency (ILR 3+)
 - **`Python3`**, always _Black_, PEP8-compliant, documented, tested, usually typed, and readable
 - Fluent in **`C`**, comfortable reading `C++`, `Java` & `JS`, rookie on `shell` scripting
 - Can read Portuguese, French, and almost any code written by a human :)
@@ -125,9 +120,9 @@ Finally, I use a [simple script](notebooks/html-post-process-css.ipynb) to remov
 
 [^1]: For a less _nerdy CSS markdown-ish styling_ go to the [source][repo_resume]/[web][ghpages_resume], or download PDFs for the [light-theme version][pdf_light_theme] or the [dark one][pdf_dark_theme].
 
-[badge_availability]: ./resources/badge_availability.svg "Availability: Full-time"
-[badge_level]: ./resources/badge_level.svg "Experience level: Senior"
-[badge_language]: ./resources/badge_language.svg "Preferred language: Python"
+[badge_availability]: https://img.shields.io/badge/availability-Full--time-green?style=flat-square "Availability: Full-time"
+[badge_level]: https://img.shields.io/badge/level-Senior-orange?style=flat-square "Experience level: Senior"
+[badge_language]: https://img.shields.io/badge/language-Python-blue?style=flat-square "Preferred language: Python"
 [company_remak]: https://www.remak.eu/en/company-profile "REMAK"
 [company_cype]: http://www.cype.com "CYPE"
 [company_pik]: https://www.pikolinos.com "Pikolinos"
