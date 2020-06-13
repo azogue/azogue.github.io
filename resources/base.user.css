@@ -6,6 +6,7 @@ aside { position: absolute; right: 0; top: 0;}
 body.typora-export {
     padding-left: 8px;
     padding-right: 8px;
+    margin-right: 4px;
 }
 
 .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;}
@@ -22,16 +23,60 @@ body.typora-export {
   margin-bottom: 1rem;
 }
 
+/* lists of items */
+ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+ul li:before {
+    /* bullet point color */
+  color: #4fac4f;
+}
+ul li:not(.task-list-item):before {
+  content: "*";
+  margin-left: -2ch;
+  position: absolute;
+}
+.task-list-item.md-task-list-item {
+    padding-left: 0px;
+    margin-left: 2em;
+}
+.task-list-item input:before {
+    content: '- [ ]';
+    margin-left: -6ch;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    width: 9ch;
+}
+.task-list-item input:checked:before {
+  content: '- [x]';
+}
+.task-list-item input:checked {
+  /*display: none;*/
+  color: red;
+}
+.task-list-item input:checked ~ * {
+  text-decoration: none;
+}
+
+/* print setup for pdf */
 @media print {
     /* page & font size  */
-    @page { size: A4; }
+    @page { size: 210mm 297mm; }
 
     html {
         width: 210mm;
-        height: 297mm !important;
+        height: 297mm;
     }
     html, body {
         font-size: 13px !important;
+        border: 0 !important;
+    }
+
+    /* horizontal padding */
+    .typora-export #write {
+        padding-left: 30px;
+        padding-right: 15px;
     }
 
     /* Ensure padding-top on page break */
